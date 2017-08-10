@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<script type="text/javascript" src="/youu-portal/static/plugin/jQuery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/youu-portal/assets/vendor/jQuery/jquery-3.2.1.min.js"></script>
 
 <title>Insert title here</title>
 </head>

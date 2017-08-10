@@ -14,9 +14,26 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.youu.manager.pojo</groupId>
-			<artifactId>youu-manager-pojo</artifactId>
+			<groupId>com.youu.manager.dao</groupId>
+			<artifactId>youu-manager-dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.atguigu.commons</groupId>
+			<artifactId>project-commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- 工作流 -->
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-engine</artifactId>
+		</dependency>
+		<!--activiti与spring的整合包 -->
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-spring</artifactId>
 		</dependency>
 
 		<!-- 时间日期 -->
@@ -87,7 +104,5 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc-portlet</artifactId>
 		</dependency>
-
-
 	</dependencies>
 </project>

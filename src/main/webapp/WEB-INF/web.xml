@@ -15,11 +15,6 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-    <!-- Tomcat启动监听器 -->
-    <listener>
-        <listener-class>com.youu.youu.portal.listener.MyAppListener</listener-class>
-    </listener>
-
     <!-- 配置springmvc的前端控制器 -->
     <servlet>
         <servlet-name>springDispatcherServlet</servlet-name>

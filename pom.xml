@@ -25,6 +25,13 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
+		<!-- EUditor编辑器 -->
+		<dependency>
+			<groupId>cn.songxinqiang</groupId>
+			<artifactId>com.baidu.ueditor</artifactId>
+			<version>1.1.2-offical</version>
+		</dependency>
+
 		<!-- 工作流 -->
 		<dependency>
 			<groupId>org.activiti</groupId>

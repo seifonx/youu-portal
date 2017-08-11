@@ -159,7 +159,7 @@
 
         	<figure>
 
-            	<div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="assets/img/bg.jpg"></div>
+            	<div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="http://ww1.sinaimg.cn/large/8e24145egy1fifxdtbv4cj21hc0ncdp8.jpg"></div>
 
             </figure>
 
@@ -347,7 +347,7 @@
 
                     <div class="col-xs-12 col-sm-6 col-md-6">
 
-                        <figure class="row" style="background-image:url('assets/img/bg2.jpg')"></figure>
+                        <figure class="row" style="background-image:url('http://ww1.sinaimg.cn/large/8e24145egy1fifxdt1dfdj218g0m8agg.jpg')"></figure>
 
                     </div>
 
@@ -363,7 +363,7 @@
 
                     <div class="col-xs-12 col-sm-6 col-md-6">
 
-                    	<figure class="row" style="background-image:url('assets/img/bg3.jpg')"></figure>
+                    	<figure class="row" style="background-image:url('http://ww1.sinaimg.cn/large/8e24145egy1fifxdt2hv9j218g0m8qdo.jpg')"></figure>
 
                     </div>
 

@@ -12,5 +12,4 @@ public class ControllerTest {
     public String hello() {
         return "hello";
     }
-
 }

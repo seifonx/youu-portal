@@ -14,6 +14,13 @@
 <link rel='stylesheet prefetch' href='css/MaterialIcons.css'>
 <body>
 <div class="cotn_principal">
+	<div  style="margin-left:20px; float: left;">
+	       <h1>
+	           <a href="index.jsp" title="Rooky">
+	           <img src="assets/img/youWhite.png" alt="Rooky" title="Rooky"/></a>
+	           	
+	       </h1>
+	  	</div>
   <div class="cont_centrar">
     <div class="cont_login">
       <div class="cont_info_log_sign_up">

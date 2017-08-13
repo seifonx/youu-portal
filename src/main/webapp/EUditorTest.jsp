@@ -23,7 +23,7 @@
 </head>
 <body>
 <div>
-    <h1>editor编辑区</h1>
+    <h1>Demo</h1>
     <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
     </div>
     <div id="btns">
@@ -74,13 +74,13 @@
     //覆盖UEditor中获取路径的方法
     UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;
 
-        UE.Editor.prototype.getActionUrl = function(action) {
-            //判断路径   这里是config.json 中设置执行上传的action名称
-            if (action == 'uploadimage') {
-                return '/youu-restapi/uploadImage';
-            } else {
-                return this._bkGetActionUrl.call(this, action);
-            }
+    UE.Editor.prototype.getActionUrl = function(action) {
+        //判断路径   这里是config.json 中设置执行上传的action名称
+        if (action == 'uploadimage') {
+            return '/youu-restapi/uploadImage';
+        } else {
+            return this._bkGetActionUrl.call(this, action);
+        }
     }
 
     //编辑器是否获得焦点

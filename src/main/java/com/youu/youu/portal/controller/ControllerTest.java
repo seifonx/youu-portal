@@ -13,5 +13,10 @@ public class ControllerTest {
         return "hello1";
     }
     
+    @RequestMapping("toMain")
+    public String toMain(){
+    	System.out.println("去登陆页面");
+    	return "main";
+    }
     
 }
